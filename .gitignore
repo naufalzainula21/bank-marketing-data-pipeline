@@ -1,0 +1,17 @@
+# Ignore Jupyter Notebook checkpoints
+notebook/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignore compiled Python files
+**/__pycache__/
+
+# Ignore ETL run logs
+script/log/*.log
+
+# Ignore specific data file
+notebook/data/bank_transactions.csv
+explore/
+
+# ignore notebook/main.ipynb and test.ipynb
+notebook/main.ipynb
+notebook/test.ipynb
